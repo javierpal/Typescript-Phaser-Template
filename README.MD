@@ -4,7 +4,9 @@
 
 - 1.- Just clone the Repository
 
- git clone https://github.com/javierpal/Typescript-Phaser-Template.git
+```
+git clone https://github.com/javierpal/Typescript-Phaser-Template.git
+```
 
 - 2.- then DELETE the .git folder is a hidden file.
 
