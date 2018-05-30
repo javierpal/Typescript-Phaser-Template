@@ -54,6 +54,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-obfuscator');
   grunt.registerTask("default", ["ts"]);
   grunt.registerTask("build",["ts:build", "clean", "obfuscator:build", "copy"]);
-  grunt.registerTask("dist-ofuscated",["ts:build", "clean", "obfuscator:dist", "copy"]);
+  grunt.registerTask("dist-obfuscated",["ts:build", "clean", "obfuscator:dist", "copy"]);
   grunt.registerTask("dist",["ts:build", "clean", "copy"]);
 };
